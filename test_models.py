@@ -31,7 +31,13 @@ class testmodels:
     def test_find_by_category(Self):
         pass
     def test_find_by_availability(self):
-        pass
+        def test_find_by_availability(self):
+    # Example of finding objects by availability (assuming a boolean field "available")
+    available_objects = YourModelClass.objects.filter(available=True)
+    self.assertGreater(len(available_objects), 0)  # Make sure there's at least one available object
+
+    for obj in available_objects:
+        self.assertTrue(obj.available)
 
 if __name__ == '__main__':
     unittest.main()
