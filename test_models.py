@@ -12,7 +12,13 @@ class testmodels:
         instance.delete()
         self.assertFalse(YourModelClass.objects.filter(id=instance.id).exists())
     def test_list_all(Self):
-        pass
+          result = self.objects_list  
+
+        self.assertEqual(len(result), 3)
+        self.assertIn(self.obj1, result)
+        self.assertIn(self.obj2, result)
+        self.assertIn(self.obj3, result)
+        
     def test_find_by_name(self):
         pass
     def test_find_by_category(Self):
