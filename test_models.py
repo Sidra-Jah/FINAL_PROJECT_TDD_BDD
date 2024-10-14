@@ -8,7 +8,9 @@ class testmodels:
     def test_read(Self):
         pass
     def test_delete(self):
-        pass
+        instance = YourModelClass.objects.create(field_name="value")
+        instance.delete()
+        self.assertFalse(YourModelClass.objects.filter(id=instance.id).exists())
     def test_list_all(Self):
         pass
     def test_find_by_name(self):
