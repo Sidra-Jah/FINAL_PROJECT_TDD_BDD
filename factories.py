@@ -1,12 +1,12 @@
-from faker import Faker
+import factory
+from models import Product  # Import the Product class from models.py
 
-fake = Faker()
+class ProductFactory(factory.Factory):
+    class Meta:
+        model = Product
 
-def fake_product():
-    """Generate a fake product with random data"""
-    return{
-        'name':fake.word(),
-        'category':fake.word(),
-        'price':round(fake.random_number(digits=2),2),
-        'availabilty':fake.boolean(),
-    }
+    name = factory.Faker('name')
+    description = factory.Faker('text')
+    price = factory.Faker('random_number', digits=5)
+    available = factory.Faker('boolean')
+    category = factory.Faker('word')
