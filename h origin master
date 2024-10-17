@@ -1,0 +1,106 @@
+[33mcommit 3af8bf765b6d38c54ad3592c5d476eef1193210a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Thu Oct 17 13:37:11 2024 +0200
+
+    Add DELETE test case to test_models.py
+
+[33mcommit 6c4a45e9a72219ccc6169193539f3e1950aad185[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Thu Oct 17 12:29:41 2024 +0200
+
+    Add DELETE test case to test_models.py
+
+[33mcommit 13c16b34ca470f881f31df5db96b0934716875bd[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Thu Oct 17 12:26:25 2024 +0200
+
+    Add UPDATE test case to test_models.py
+
+[33mcommit 4f03402cb5d8ac4e331b912584e950c364a42fd4[m
+Merge: d0dd33b 162b7a6
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Thu Oct 17 12:24:15 2024 +0200
+
+    Add new factory and model files
+
+[33mcommit d0dd33b066846c86283626bc7c42e7b3311fd46e[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Thu Oct 17 12:17:09 2024 +0200
+
+    Initial commit with project files
+
+[33mcommit 162b7a64b31b4941b8142d5dea04d0826d6a991a[m
+Merge: ba500b6 0c69016
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Thu Oct 17 11:47:49 2024 +0200
+
+    Update factories.py with fake product data
+
+[33mcommit ba500b618e5d3e1938655d4cc06df8a0d165167b[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Thu Oct 17 11:38:35 2024 +0200
+
+    Update factories.py with fake product data
+
+[33mcommit 0c6901686f12c18adef31493131d1a9ac03d373c[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Tue Oct 15 09:21:04 2024 +0200
+
+    Updated factories.py with the fake product data
+
+[33mcommit e99319ccc95babbae448eda3ffc84d9457802cbe[m
+Merge: d8e4ffd 6ce3019
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 18:06:54 2024 +0200
+
+    git add .
+    git commit -m "Resolved merge conflicts"
+    Merge branch 'master' of https://github.com/Sidra-Jah/-final_projectIBM
+
+[33mcommit d8e4ffdfeb912215a4f026a90a8140e757126387[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 18:05:55 2024 +0200
+
+    Updated factories.py and test_models.py with new test cases
+
+[33mcommit 6ce30191ae52e332c6d90ab0b28a3f601b8466a4[m
+Author: Sidra <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 13:21:51 2024 +0200
+
+    Update test_models.py
+
+[33mcommit 0a2b45fffb871f07992f4f7d0922cfecc5be516b[m
+Author: Sidra <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 13:21:40 2024 +0200
+
+    Update test_models.py
+
+[33mcommit addec752f28a3b491155e2cad66dedf7a51317a6[m
+Author: Sidra <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 13:17:16 2024 +0200
+
+    Update test_models.py
+
+[33mcommit d8344d0e18b03514f4d149c7768df259f6662af0[m
+Author: Sidra <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 13:15:36 2024 +0200
+
+    Update test_models.py
+
+[33mcommit 0e9218d73f67f311cd64dd61a88e054a58226f0e[m
+Author: Sidra <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 13:13:34 2024 +0200
+
+    Update test_models.py
+
+[33mcommit 5d45060b73148b07979676c0e8c1734126043d63[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 11:51:40 2024 +0200
+
+    Added test_models.py for testing
+
+[33mcommit fde579120e357fa0ab874e8726d4e965b2a8f4f3[m
+Author: Sidra Jahanzeb <mrssidrajahanzeb@gmail.com>
+Date:   Mon Oct 14 11:21:36 2024 +0200
+
+    Initial commit with factory files
