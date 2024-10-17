@@ -1,9 +1,16 @@
 import pytest
-from ..models.model import update_function  # Adjust this import based on your actual function
+from ..models.model import delete_function, read_function  # Make sure both functions are imported correctly
 
-def test_update_function():
-    initial_data = "Initial Data"  # Set initial data
-    update_data = "Updated Data"    # Set data to update
-    result = update_function(initial_data, update_data)  # Call your update function
-    expected_result = "Updated Data"  # Replace with the expected output from your function
-    assert result == expected_result
+def test_delete_function():
+    # First, ensure the item exists. You may need to adjust this based on your application's logic.
+    initial_result = read_function()  # Read current state before deletion
+    
+    item_to_delete = "item_id"  # Replace with the actual ID you are testing
+    assert item_to_delete in initial_result  # Check that the item exists before deletion
+
+    # Now delete the item
+    delete_function(item_to_delete)  
+
+    # Read the result again after deletion
+    result = read_function()  
+    assert item_to_delete not in result  # Verify the item is deleted
